@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * Module of Reports
+ */
+
+function reports_gea_menu(){
+	$items['view/test'] = array(
+		'title' => 'Test - Drupal', 
+		'page callback' => 'Mad_AppMiMovistar_reporteEvolutivoCall', 
+		'expanded' => TRUE );
+	return $items;
+}
+
+
+
+
+function Mad_AppMiMovistar_reporteEvolutivoCall()
+{
+	/*$themePath = drupal_get_path('module', 'reports_gea');
+	addReportLibs($themePath);
+	drupal_add_js($themePath . '/view/reportes/evolutivo/test.js');	
+	return theme('Mad_AppMiMovistar_ReporteEvolutivo');*/
+
+	
+}
