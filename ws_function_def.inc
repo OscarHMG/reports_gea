@@ -30,5 +30,11 @@
  	define('BDD_SERVER', 		'127.0.0.1');
 	define('BDD_USER_NAME', 	'root');
 	define('BDD_PASSWORD', 		'root');
+	define('BBD_DB_NAME','maquetabot');
 	
+
+	/*$servername = "127.0.0.1";
+	$username = "root";
+	$password = "root";
+	$dbName = "maquetabot";*/
 	
